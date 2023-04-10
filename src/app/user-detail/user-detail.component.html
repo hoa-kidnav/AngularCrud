@@ -1,0 +1,71 @@
+<mat-card *ngIf="userDetail" class="example-card">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>{{userDetail.firstname}} {{userDetail.lastname}}</mat-card-title>
+    <mat-card-subtitle>{{userDetail.email}}</mat-card-subtitle>
+  </mat-card-header>
+
+  <mat-card-content>
+    <mat-list>
+      <!-- Mobile Number -->
+      <mat-list-item>
+        <div matLine>
+            Mobile Number :
+            <button mat-button>{{userDetail.mobile}} </button>
+        </div>
+      </mat-list-item>
+          <!-- Gender -->
+          <mat-list-item>
+            <div matLine>
+               Gender :
+                <button mat-button>{{userDetail.gender}} </button>
+            </div>
+       </mat-list-item>
+          <!--package -->
+          <mat-list-item>
+            <div matLine>
+              package :
+                <button mat-button>{{userDetail.package}} </button>
+            </div>
+       </mat-list-item>
+          <!--BMI -->
+          <mat-list-item>
+            <div matLine>
+                BMI :
+                <button mat-button>{{userDetail.bmi}} </button>
+            </div>
+       </mat-list-item>
+       <mat-list-item>
+        <div matLine>
+          bmiResult :
+            <button mat-button>{{userDetail.bmiResult}} </button>
+        </div>
+   </mat-list-item>
+          <!--trainer Require -->
+          <mat-list-item>
+            <div matLine>
+              trainer Require :
+                <button mat-button>{{userDetail.requireTrainer}} </button>
+            </div>
+       </mat-list-item>
+          <!--Goals -->
+          <mat-list-item>
+            <div matLine>
+              Goals
+                <button mat-button>
+                <mat-chip-listbox *ngFor="let row of userDetail.important ">
+                  <ng-container>
+                    <mat-chip-option selected>{{row}}</mat-chip-option>
+                  </ng-container>
+                </mat-chip-listbox>
+
+                </button>
+            </div>
+       </mat-list-item>
+    </mat-list>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button>LIKE</button>
+    <button mat-button>SHARE</button>
+  </mat-card-actions>
+</mat-card>

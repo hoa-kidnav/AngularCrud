@@ -1,0 +1,79 @@
+{
+  "enquiry": [
+    {
+      "firstname": "john",
+      "lastname": "with",
+      "email": "john@gmail.com",
+      "mobile": "0216518",
+      "weight": 454,
+      "height": 454,
+      "bmi": 0.000218323662403695,
+      "bmiResult": "Underweight",
+      "gender": "Male",
+      "requireTrainer": "Yes",
+      "package": "Quarterly",
+      "important": [
+        "Toxic Fat reduction",
+        "Energy and Endurance",
+        "Building Learn Muscle"
+      ],
+      "haveGymBefore": "Yes",
+      "enquiryDate": "2023-03-21T17:00:00.000Z",
+      "id": 1
+    },
+    {
+      "firstname": "doctorstrape",
+      "lastname": "stap",
+      "email": "doc@gmail.com",
+      "mobile": "1516548",
+      "weight": 45451,
+      "height": 454,
+      "bmi": 0.000218323662403695,
+      "bmiResult": "Underweight",
+      "gender": "Female",
+      "requireTrainer": "Yes",
+      "package": "Monthly",
+      "important": [
+        "Energy and Endurance",
+        "Building Learn Muscle"
+      ],
+      "haveGymBefore": "Yes",
+      "enquiryDate": "2023-03-22T17:00:00.000Z",
+      "id": 2
+    },
+    {
+      "firstname": "",
+      "lastname": "",
+      "email": "",
+      "mobile": "",
+      "weight": "",
+      "height": "",
+      "bmi": "",
+      "bmiResult": "",
+      "gender": "",
+      "requireTrainer": "",
+      "package": "Quarterly",
+      "important": "",
+      "haveGymBefore": "",
+      "enquiryDate": "",
+      "id": 3
+    },
+    {
+      "firstname": null,
+      "lastname": null,
+      "email": null,
+      "mobile": null,
+      "weight": null,
+      "height": null,
+      "bmi": null,
+      "bmiResult": null,
+      "gender": null,
+      "requireTrainer": null,
+      "package": null,
+      "important": null,
+      "haveGymBefore": null,
+      "enquiryDate": null,
+      "id": 4
+    }
+  ]
+}

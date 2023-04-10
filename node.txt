@@ -1,0 +1,16 @@
+tạo danh sách đăng ký
+tạo một đăng ký trong login {lưu ý login có thể thiết kế nhiều cái khác}
+hiện thị thông tin người dùng user-detail
+có thể dùng link bootrap trong  angular không bị đụng va metarila
+2 thư viện dùng :
+  npm i ng-angular-popup --force
+   npm i ng-confirm-box --force
+
+cần lưu ý phải có module nay mới có thể làm datepicker: MatDatepickerModule,MatNativeDateModule,MatChipsModule
+phải  có những  import : mới dùng  đc vòng for và các vòng lập :
+ import {MatPaginatorModule} from '@angular/material/paginator';
+import {MatSortModule} from '@angular/material/sort';
+import { MatChipsModule } from '@angular/material/chips';
+
+cách chay server ảo :
+    json-server --watch db.json
